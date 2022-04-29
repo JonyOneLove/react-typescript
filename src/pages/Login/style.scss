@@ -1,0 +1,91 @@
+@import '../../App.scss';
+
+.login {
+  padding-top: 200px;
+  max-width: 390px;
+  margin: 0 auto;
+}
+
+.login-form__title {
+  // font-family: Ubuntu-Bold;
+  font-size: 30px;
+  color: #403866;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+  display: block;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 500px;
+  &__name {
+    // font-family: Ubuntu-Bold;
+    color: #403866;
+    line-height: 1.2;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    background: rgb(224, 224, 224);
+    height: 62px;
+    padding: 0 20px 0 38px;
+    margin-bottom: 16px;
+  }
+  &__login {
+    color: #403866;
+    line-height: 1.2;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    background: rgb(224, 224, 224);
+    height: 62px;
+    padding: 0 20px 0 38px;
+    margin-bottom: 16px;
+  }
+  &__password {
+    color: #403866;
+    line-height: 1.2;
+    font-size: 18px;
+    display: block;
+    width: 100%;
+    background: rgb(224, 224, 224);
+    height: 62px;
+    padding: 0 20px 0 38px;
+    margin-bottom: 16px;
+  }
+  &__btn {
+    cursor: pointer;
+    font-family: Ubuntu-Bold;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.2;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+    height: 62px;
+    background-color: #827ffe;
+    border-radius: 3px;
+    transition: all 0.4s;
+    &:hover {
+      background-color: #403866;
+    }
+  }
+  &__account-have {
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 5px;
+    display: block;
+    text-align: right;
+    color: #adb8cc;
+    margin-bottom: 16px;
+    a {
+      color: #8833ff;
+    }
+  }
+}
